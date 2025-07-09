@@ -133,7 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                     // Email Field
                     TextFormField(
                       controller: _emailController,
-                      maxLength: 30,
+                      maxLength: 50,
                       decoration: InputDecoration(
                         labelText: 'E-Mail',
                         labelStyle: const TextStyle(color: Colors.white),
@@ -160,7 +160,7 @@ class _LoginPageState extends State<LoginPage> {
                     TextFormField(
                       controller: _passwordController,
                       obscureText: !_isPasswordVisible,
-                      maxLength: 10,
+                      maxLength: 50,
                       decoration: InputDecoration(
                         labelText: 'Password',
                         labelStyle: const TextStyle(color: Colors.white),
